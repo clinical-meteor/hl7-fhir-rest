@@ -28,17 +28,17 @@ Package.onUse(function (api) {
   api.use('simple:json-routes@2.1.0');
 
 
-  api.addFiles('server/rest/bundles.js', 'server');
-  api.addFiles('server/rest/encounters.js', 'server');
-  api.addFiles('server/rest/patients.js', 'server');
+  // api.addFiles('server/rest/bundles.js', 'server');
+  // api.addFiles('server/rest/encounters.js', 'server');
+  // api.addFiles('server/rest/patients.js', 'server');
 
-  api.addFiles('server/encounters.js', 'server');
-  api.addFiles('server/bundles.pharmakit.js', 'server');
+  // api.addFiles('server/initialize/encounters.js', 'server');
+  // api.addFiles('server/initialize/bundles.pharmakit.js', 'server');
 
-  api.addFiles('server/hooks/bundles.js', 'server');
-  api.addFiles('server/hooks/patients.js', 'server');
+  // api.addFiles('server/hooks/bundles.js', 'server');
+  // api.addFiles('server/hooks/patients.js', 'server');
 
-  api.addFiles('server/methods/patients.js', 'server');
+  // api.addFiles('server/methods/patients.js', 'server');
 });
 
 
