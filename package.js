@@ -14,6 +14,14 @@ Package.onUse(function (api) {
   api.use('ecmascript@0.13.0');
 
   api.use('mongo');
+
+  api.use('aldeed:collection2@3.0.0');
+  api.use('simple:json-routes@2.1.0');
+
+  api.use('clinical:hl7-resource-datatypes@4.0.5');
+  api.use('clinical:extended-api@2.5.0');
+  api.use('matb33:collection-hooks@0.7.15');
+
 });
 
 
