@@ -1,3 +1,6 @@
+import { get } from 'lodash';
+import { RestHelpers } from '../RestHelpers';
+
 var fhirVersion = 'fhir-3.0.0';
 
 if(typeof oAuth2Server === 'object'){
